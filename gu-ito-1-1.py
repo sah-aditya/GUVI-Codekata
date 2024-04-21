@@ -20,5 +20,5 @@ Sample output:
 3'''
 
 n, a, b = map(int, input().split())
-a=min(n-a,b+1)
-print(a)
+c= n-max(a+1, n-b)+1.
+print(c)
