@@ -52,7 +52,7 @@ class CheckingAccount(Account):
     #..... YOUR CODE STARTS HERE .....
 
     def calculate_service_tax(self,ta):
-        return ta*0.1
+        return ta*0.2
 
 
     #..... YOUR CODE ENDS HERE .....
