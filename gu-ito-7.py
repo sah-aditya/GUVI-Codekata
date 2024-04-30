@@ -25,12 +25,12 @@ class Circle:
     #..... YOUR CODE STARTS HERE .....
 
     def area(self,radius):
-        a=3.14*radius*radius
+        a=math.pi*radius*radius
         a=round(a,1)
         return a
     
     def circumference(self,radius):
-        c=2*3.14*radius
+        c=2*math.pi*radius
         c=round(c,1)
         return c
     #..... YOUR CODE ENDS HERE .....
